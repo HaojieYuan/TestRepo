@@ -97,6 +97,46 @@ IV.修改已被`push`
 
 `git checkout -b branch1`可以新建一个名为`branch1`的分支，
 
+
+
+在`branch1`修改完成后，经过`add`和`commit`后，通过`git push --set-upstream origin branch1`完成向服务器端的更新，此时服务器端会出现`branch1`分支，确认无误后，在服务器端发起`pull request`:
+
+![image-20201012152922366](/Users/haojieyuan/Library/Application Support/typora-user-images/image-20201012152922366.png)
+
+
+
+此时管理员可以进行代码审核：
+
+![image-20201012153057131](/Users/haojieyuan/Library/Application Support/typora-user-images/image-20201012153057131.png)
+
+确认无误后同意merge。
+
+![image-20201012153130776](/Users/haojieyuan/Library/Application Support/typora-user-images/image-20201012153130776.png)
+
+
+
+在远端完成更新后，本地通过`git checkout master`切换回master分支，利用`git pull`完成该分支更新
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 一个简单示例：
 
 ![](https://raw.githubusercontent.com/HaojieYuan/img_links/master/imgs/20200917164429.png)
