@@ -101,17 +101,17 @@ IV.修改已被`push`
 
 在`branch1`修改完成后，经过`add`和`commit`后，通过`git push --set-upstream origin branch1`完成向服务器端的更新，此时服务器端会出现`branch1`分支，确认无误后，在服务器端发起`pull request`:
 
-![image-20201012152922366](/Users/haojieyuan/Library/Application Support/typora-user-images/image-20201012152922366.png)
+![](https://raw.githubusercontent.com/HaojieYuan/img_links/master/imgs/20201025155219.png)
 
 
 
 此时管理员可以进行代码审核：
 
-![image-20201012153057131](/Users/haojieyuan/Library/Application Support/typora-user-images/image-20201012153057131.png)
+![](https://raw.githubusercontent.com/HaojieYuan/img_links/master/imgs/20201025160323.png)
 
 确认无误后同意merge。
 
-![image-20201012153130776](/Users/haojieyuan/Library/Application Support/typora-user-images/image-20201012153130776.png)
+![](https://raw.githubusercontent.com/HaojieYuan/img_links/master/imgs/20201025160347.png)
 
 
 
@@ -145,7 +145,7 @@ IV.修改已被`push`
 
 分支建立完成后，开始正常的Coding工作，例如我在`code1.py`中实现了一个加法函数`func1`，`code2.py`中实现了一个乘法函数`func2`:
 
-![image-20200917164940788](/Users/haojieyuan/Library/Application Support/typora-user-images/image-20200917164940788.png)
+![](https://raw.githubusercontent.com/HaojieYuan/img_links/master/imgs/20201025160439.png)
 
 
 
